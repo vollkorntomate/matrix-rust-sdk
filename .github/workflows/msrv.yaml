@@ -3,7 +3,7 @@ name: Rust version
 on:
   workflow_dispatch:
   push:
-    branches: [main]
+    branches: [main, develop]
   pull_request:
     branches: [main]
     types:
